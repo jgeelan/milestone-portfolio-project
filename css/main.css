@@ -1,0 +1,204 @@
+/***** BASE STYLES *****/
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2b2b2b;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.half-width{
+  width: 600px;
+  overflow: auto;
+  float: left;
+}
+.third-width{
+  width: 400px;
+  overflow: auto;
+  float: left;
+}
+/***** HEADER *****/
+
+header{
+  height: 800px;
+  background: url('../img/full-background.png');
+  background-size: cover;
+  background-position: center;
+}
+header h1 {
+    padding: 20px 0 65px 25px;
+    font-family: 'Lora';
+    color: #2b2b2b;
+    font-size: 30px;
+}
+nav {
+    float: right;
+    padding: 40px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+header h2 {
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 48px;
+    line-height: 80px;
+    color: #f9a620;
+    padding: 150px 0 80px 250px;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+/***** ABOUT *****/
+
+#about .full-width{
+  padding: 80px;
+  text-align: center;
+}
+#about h2 {
+  font-family:'Lora', serif;
+  font-size:36px
+  padding-left:50px;
+}
+#about p {
+  font-size:21px;
+  color: #7F7F7F;
+  line-height:40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
+}
+
+/***** WORK *****/
+
+#work{
+  text-align: center;
+  background-color: #EBEBEB;
+}
+#work .full-width{
+  padding: 115px 0;
+}
+#work img{
+  padding-bottom: 30px;
+}
+#work h3 {
+  font-size: 24px;
+  line-height: 32px;
+  width: 190px;
+  margin: 0 auto;
+}
+
+#work p {
+  font-family: 'Lora';
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 50px;
+}
+
+/***** Portfolio *****/
+#portfolio{
+  text-align: center;
+}
+#portfolio .full-width{
+  padding: 115px 0;
+}
+#portfolio img{
+  padding-bottom: 30px;
+  padding-top: 100px;
+  height: 200px;
+  align-items: center;
+}
+#portfolio h3 {
+  font-size: 24px;
+  line-height: 32px;
+  width: 190px;
+  margin: 0 auto;
+}
+
+#portfolio p {
+  font-family: 'Lora';
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 50px;
+}
+/***** CONTACT *****/
+
+#contact {
+  background-color: #EBEBEB;
+}
+#contact .full-width {
+    padding: 110px 0;
+}
+#contact img#contact-img {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+    height: 250px;
+}
+#contact .half-width {
+    text-align: center;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #f9a620;
+    font-weight: bold;
+    font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
+
+/***** footer *****/
+footer{
+      background: #EBEBEB;
+      margin: 0 auto;
+      height: 30px;
+      padding-top: 20px;
+      width: 100%;
+      text-align: center;
+  }
+  footer ul{
+  margin: 0px;
+    padding:0;
+  }
+  footer li {
+      list-style-type: none;
+      line-height: 18px;
+      height: 20px;
+      padding: 0px 10px;
+      display: inline-block;
+  }
+  footer li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+  }
